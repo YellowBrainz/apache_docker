@@ -10,11 +10,11 @@ build:
 start: network apache
 
 stop:
-        docker stop -t 0 apache
+	docker stop -t 0 apache
 
 clean:
-        docker rm -f apache
-        docker network rm $(NETWORKNAME)
+	docker rm -f apache
+	docker network rm $(NETWORKNAME)
 
 network:
 	docker network create --subnet $(SUBNET).0/16 --gateway $(SUBNET).254 $(NETWORKNAME)
