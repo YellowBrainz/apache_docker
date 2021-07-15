@@ -1,0 +1,8 @@
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Thu Jul 15 09:37:24.045104 2021] [mpm_event:notice] [pid 17:tid 140658667743104] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 15 09:37:24.047287 2021] [core:notice] [pid 17:tid 140658667743104] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Thu Jul 15 09:40:30.292226 2021] [mpm_event:notice] [pid 18:tid 140435192555392] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Jul 15 09:40:30.294329 2021] [core:notice] [pid 18:tid 140435192555392] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

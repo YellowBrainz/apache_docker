@@ -20,7 +20,7 @@ network:
 	docker network create --subnet $(SUBNET).0/16 --gateway $(SUBNET).254 $(NETWORKNAME)
 
 apache:
-	docker run -d -v /www:/var/www -v /www/logdir:/var/log/apache2 --net $(NETWORKNAME) --ip $(SUBNET).113 -e SUBNET=$(SUBNET) -p 80:80 -p 443:443 --name $(NODENAME_APACHE) yellowdocker/apache:latest
+	docker run -d -v /Users/smart-t/workspace/docker/apache_docker/www:/var/www -v /Users/smart-t/workspace/docker/apache_docker/www/logdir:/var/log/apache2 --net $(NETWORKNAME) --ip $(SUBNET).113 -e SUBNET=$(SUBNET) -p 80:80 -p 443:443 --name $(NODENAME_APACHE) yellowdocker/apache:latest
 
 rmapache:
 	docker rm -f $(NODENAME_APACHE)
